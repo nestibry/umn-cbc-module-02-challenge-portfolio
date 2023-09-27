@@ -8,6 +8,9 @@
     --bright-turquoise: #2aefcb;
     --gin: #e0eae4;
     --heliotrope: #e866ec;
+    --bckgd-color: var(--outer-space);
+    --hdrs-color: var(--tulip-tree);
+    --text-color: var(--gin);
 }
 
 html {
