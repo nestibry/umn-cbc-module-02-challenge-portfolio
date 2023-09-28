@@ -224,7 +224,7 @@ nav a:hover {
         min-height: 550px;
     } */
 
-    #about-me h2 {
+    .main-sections h2 {
         min-height: 75%;
         max-height: 400px;
         width: 25%;
@@ -234,11 +234,30 @@ nav a:hover {
         border-bottom: none;
         border-right: 5px solid var(--black-and-blue);
         /* padding: 150px 4rem; */
+        /* padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 300px; */
+        padding: 0 4rem 300px 4rem;
+        flex-grow: 1;
+        justify-self: top;
+
+    }
+
+    #about-me h2 {
+        /* min-height: 75%;
+        max-height: 400px;
+        width: 25%;
+        /* background-color: #DEF2F1; *
+        color: var(--black-and-blue);
+        margin: 0;
+        border-bottom: none;
+        border-right: 5px solid var(--black-and-blue);
+        /* padding: 150px 4rem; *
         padding-left: 4rem;
         padding-right: 4rem;
         padding-bottom: 300px;
         flex-grow: 1;
-        justify-self: top;
+        justify-self: top; */
     }
     #about-me figure {
         margin: 0 5rem 0 0;
