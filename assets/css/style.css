@@ -4,7 +4,8 @@
     --black-and-blue: #17252A;
     --dark-cyan: #2B7A78;
     --modr-cyan: #3AAFA9;
-    --lght-cyan: #DEF2F1;
+    /* --lght-cyan: #DEF2F1; */
+    --lght-cyan: #b2d8d6;
     --pale-cyan: #FEFFFF;
 }
 
@@ -127,9 +128,23 @@ nav a:hover {
     gap: 3rem;
 }
 
-#about-me {
+.main-sections h2 {
+    margin: 5% 0 0 0;
+    text-align: center;
+    width: 75%;
+    padding: 1rem;
+    color: var(--black-and-blue);
+    border-bottom: 1px solid var(--black-and-blue);
+}
+
+#about-me, #contact-me {
     background-color: var(--modr-cyan);
 }
+
+#work {
+    background-color: var(--lght-cyan);
+}
+
 
 #about-me h2 {
     margin: 5% 0 0 0;
