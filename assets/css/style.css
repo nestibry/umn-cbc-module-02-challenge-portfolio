@@ -1,16 +1,11 @@
-/* Color scheme sourced from http://khroma.co/generator/ */
+/* Color schemes sourced from https://visme.co/blog/website-color-schemes/ */
+
 :root{
-    --salem: #008346; 
-    --putty: #cdae70;
-    --pumpkin-skin: #B1610B;
-    --tulip-tree: #E3AC3D;
-    --outer-space: #33393f;
-    --bright-turquoise: #2aefcb;
-    --gin: #e0eae4;
-    --heliotrope: #e866ec;
-    --bckgd-color: var(--outer-space);
-    --hdrs-color: var(--tulip-tree);
-    --text-color: var(--gin);
+    --black-and-blue: #17252A;
+    --dark-cyan: #2B7A78;
+    --modr-cyan: #3AAFA9;
+    --lght-cyan: #DEF2F1;
+    --pale-cyan: #FEFFFF;
 }
 
 html {
@@ -27,7 +22,7 @@ body {
     font-size: 1.75rem;
     line-height: 1.5;
     color: var(--text-color);
-    background-color: var(--bckgd-color);
+    background-color: var(--modr-cyan);
 }
 
 h1,
@@ -37,7 +32,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 0.625rem;
-    color: var(--hdrs-color);
+    color: var(--lght-cyan);
     font-weight: 700;
     line-height: 1.1;
 }
@@ -80,9 +75,26 @@ p {
 
 header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    background-color: var(--bckgd-color);
-    color: var(--hdrs-color);
+    text-align: center;
+    /* padding: 1%; */
+    background-color: var(--modr-cyan);
+    color: var(--lght-cyan);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: var(--black-and-blue);
+    color: var(--lght-cyan);
 }
