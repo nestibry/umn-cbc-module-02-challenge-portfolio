@@ -103,6 +103,11 @@ nav a {
     color: var(--lght-cyan);
 }
 
+nav a:hover {
+    background-color: var(--lght-cyan);
+    color: var(--black-and-blue);
+}
+
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
     header {
