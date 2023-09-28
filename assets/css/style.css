@@ -129,9 +129,12 @@ nav a:hover {
 }
 
 #about-me h2 {
-    margin: 2.5rem;
+    margin: 5% 0 0 0;
     color: var(--black-and-blue);
     text-align: center;
+    border-bottom: 1px solid var(--black-and-blue);
+    width: 75%;
+    padding: 1rem;
 }
 
 #about-me img {
@@ -167,6 +170,7 @@ nav a:hover {
         background-color: var(--dark-cyan);
         border-radius: 25px;
         width: 135px;
+        
     }
     .background-image {
         height: 800px;
