@@ -124,13 +124,12 @@ nav a:hover {
     align-items: center;
     /* text-align: center; */
     background-color: var(--modr-cyan);
-    color: var(--black-and-blue);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 #about-me h2 {
     margin: 2.5rem;
-    color: var(--pale-cyan);
+    color: var(--black-and-blue);
     text-align: center;
 }
 
