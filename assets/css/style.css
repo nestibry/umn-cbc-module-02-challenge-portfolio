@@ -133,8 +133,7 @@ nav a:hover {
     text-align: center;
     width: 75%;
     padding: 1rem;
-    /* color: var(--black-and-blue); */
-    color: var(--dark-cyan);
+    color: var(--black-and-blue);
     border-bottom: 1px solid var(--black-and-blue);
 }
 
@@ -144,18 +143,18 @@ nav a:hover {
 }
 
 #work {
-    background-color: var(--modr-cyan);
+    background-color: var(--dark-cyan);
     /* background-color: var(--lght-cyan); */
 }
 
 
 #about-me h2 {
-    margin: 5% 0 0 0;
+    /* margin: 5% 0 0 0;
     color: var(--black-and-blue);
     text-align: center;
     border-bottom: 1px solid var(--black-and-blue);
     width: 75%;
-    padding: 1rem;
+    padding: 1rem; */
 }
 
 #about-me img {
