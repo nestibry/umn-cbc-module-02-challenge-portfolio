@@ -101,6 +101,7 @@ nav a {
     padding: 1rem;
     background-color: var(--dark-cyan);
     color: var(--pale-cyan);
+    border-bottom: 1px solid var(--black-and-blue);
 }
 
 nav a:hover {
