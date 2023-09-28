@@ -133,16 +133,19 @@ nav a:hover {
     text-align: center;
     width: 75%;
     padding: 1rem;
-    color: var(--black-and-blue);
+    /* color: var(--black-and-blue); */
+    color: var(--dark-cyan);
     border-bottom: 1px solid var(--black-and-blue);
 }
 
 #about-me, #contact-me {
-    background-color: var(--modr-cyan);
+    /* background-color: var(--modr-cyan); */
+    background-color: var(--lght-cyan);
 }
 
 #work {
-    background-color: var(--lght-cyan);
+    background-color: var(--modr-cyan);
+    /* background-color: var(--lght-cyan); */
 }
 
 
