@@ -20,7 +20,7 @@ body {
     /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
     font-size: 1.75rem;
     line-height: 1.5;
-    color: var(--modr-cyan);
+    color: var(--pale-cyan);
     background-color: var(--modr-cyan);
 }
 
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 0.625rem;
-    color: var(--modr-cyan);
+    color: var(--lght-cyan);
     font-weight: 700;
     line-height: 1.1;
 }
