@@ -21,7 +21,7 @@ body {
     font-size: 1.75rem;
     line-height: 1.5;
     color: var(--pale-cyan);
-    background-color: var(--modr-cyan);
+    background-color: var(--black-and-blue);
 }
 
 h1,
@@ -84,7 +84,7 @@ header {
 
 header h1 {
     padding: 2.5rem;
-    color: var(--lght-cyan);
+    color: var(--pale-cyan);
 }
 
 nav {
@@ -100,7 +100,8 @@ nav a {
     font-weight: bold;
     padding: 1rem;
     background-color: var(--dark-cyan);
-    color: var(--lght-cyan);
+    color: var(--pale-cyan);
+    border-bottom: 1px solid var(--black-and-blue);
 }
 
 nav a:hover {
@@ -116,9 +117,56 @@ nav a:hover {
     background-position: center;
 }
 
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: var(--modr-cyan);
+    gap: 3rem;
+}
+
+#about-me h2 {
+    margin: 5% 0 0 0;
+    color: var(--black-and-blue);
+    text-align: center;
+    border-bottom: 1px solid var(--black-and-blue);
+    width: 75%;
+    padding: 1rem;
+}
+
+#about-me img {
+    width: 75%;
+    max-width: 250px;
+    border-radius: 100%;
+    border: 10px solid var(--dark-cyan);
+    /* margin: 2.5rem; */
+}
+
+#about-me figure {
+    width: 75%;
+    text-align: left;
+    background-color: var(--dark-cyan);
+    color: var(--pale-cyan);
+    padding: 2rem;
+    border-radius: 25px;
+    margin-bottom: 5rem;
+}
+
+#about-me p {
+    margin-bottom: 1.2rem;
+}
+
+#about-me ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 992px) {
     header {
         flex-direction: row;
     }
@@ -132,14 +180,29 @@ nav a:hover {
         background-color: var(--dark-cyan);
         border-radius: 25px;
         width: 135px;
+        
     }
     .background-image {
         height: 800px;
     }
-
-}
-
-/* media query for larger screens */
-@media screen and (min-width: 992px) {
-
+    #about-me {
+        flex-direction: row;
+        /* align-items: stretch; */
+        min-height: 500px;
+    }
+    #about-me h2 {
+        min-height: 75%;
+        max-height: 400px;
+        width: 25%;
+        /* background-color: #DEF2F1; */
+        color: var(--pale-cyan);
+        margin: 0;
+        border-bottom: none;
+        border-right: 10px solid var(--dark-cyan);
+        padding: 10rem 5rem;
+        flex-grow: 1;
+    }
+    #about-me figure {
+        margin: 0 5rem 0 0;
+    }
 }
