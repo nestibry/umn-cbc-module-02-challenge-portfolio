@@ -121,16 +121,30 @@ nav a:hover {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    text-align: center;
+    align-items: center;
+    /* text-align: center; */
     background-color: var(--modr-cyan);
     color: var(--black-and-blue);
+    gap: 1rem;
+}
+
+#about-me h2 {
+    margin: 2.5rem;
+    color: var(--black-and-blue);
+    text-align: center;
 }
 
 #about-me img {
     width: 75%;
+    max-width: 250px;
     border-radius: 100%;
     border: 10px solid var(--dark-cyan);
-    align-self: center;
+    /* margin: 2.5rem; */
+}
+
+#about-me p {
+    width: 75%;
+    text-align: left;
 }
 
 
