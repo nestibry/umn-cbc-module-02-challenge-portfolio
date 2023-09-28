@@ -129,13 +129,7 @@ nav a:hover {
 
 
 #about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
     background-color: var(--modr-cyan);
-    gap: 3rem;
 }
 
 #about-me h2 {
