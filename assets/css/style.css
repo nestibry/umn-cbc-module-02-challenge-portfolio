@@ -145,13 +145,14 @@ nav a:hover {
     /* margin: 2.5rem; */
 }
 
-#about-me p {
+#about-me figure {
     width: 75%;
     text-align: left;
     background-color: var(--dark-cyan);
     color: var(--pale-cyan);
     padding: 2rem;
     border-radius: 25px;
+    margin-bottom: 1.2rem;
 }
 
 
