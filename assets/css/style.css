@@ -144,8 +144,9 @@ nav a:hover {
 
 #work {
     /* background-color: var(--dark-cyan); */
+    /* background-color: var(--modr-cyan); */
     /* background-color: var(--lght-cyan); */
-    background-color: var(--modr-cyan);
+    background-color: var(--pale-cyan);
 }
 
 
