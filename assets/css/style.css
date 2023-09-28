@@ -130,7 +130,7 @@ nav a:hover {
 
 #about-me h2 {
     margin: 2.5rem;
-    color: var(--black-and-blue);
+    color: var(--pale-cyan);
     text-align: center;
 }
 
@@ -145,6 +145,10 @@ nav a:hover {
 #about-me p {
     width: 75%;
     text-align: left;
+    background-color: var(--dark-cyan);
+    color: var(--pale-cyan);
+    padding: 2rem;
+    border-radius: 25px;
 }
 
 
