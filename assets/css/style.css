@@ -175,6 +175,9 @@ nav a:hover {
     .background-image {
         height: 800px;
     }
+    #about-me {
+        flex-direction: row;
+    }
 
 }
 
