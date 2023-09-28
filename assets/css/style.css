@@ -233,8 +233,12 @@ nav a:hover {
         margin: 0;
         border-bottom: none;
         border-right: 5px solid var(--black-and-blue);
-        padding: 150px 4rem;
+        /* padding: 150px 4rem; */
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 300px;
         flex-grow: 1;
+        justify-self: top;
     }
     #about-me figure {
         margin: 0 5rem 0 0;
