@@ -119,11 +119,12 @@ nav a:hover {
 #about-me {
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
 }
 
 #about-me img {
     width: 75%;
+    border-radius: 100%;
 }
 
 
