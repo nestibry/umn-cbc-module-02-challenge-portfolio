@@ -133,8 +133,10 @@ nav a:hover {
     text-align: center;
     width: 75%;
     padding: 1rem;
-    color: var(--black-and-blue);
-    border-bottom: 1px solid var(--black-and-blue);
+    /* color: var(--black-and-blue);
+    border-bottom: 1px solid var(--black-and-blue); */
+    color: var(--dark-cyan);
+    border-bottom: 1px solid var(--dark-cyan);
 }
 
 #about-me, #contact-me {
@@ -220,10 +222,10 @@ nav a:hover {
         max-height: 400px;
         width: 25%;
         /* background-color: #DEF2F1; */
-        color: var(--pale-cyan);
+        color: var(--black-and-blue);
         margin: 0;
         border-bottom: none;
-        border-right: 10px solid var(--dark-cyan);
+        border-right: 5px solid var(--black-and-blue);
         padding: 10rem 5rem;
         flex-grow: 1;
     }
