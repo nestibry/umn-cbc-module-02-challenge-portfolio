@@ -199,7 +199,7 @@ nav a:hover {
         margin: 0;
         border-bottom: none;
         border-right: 10px solid var(--dark-cyan);
-        padding: 8rem 5rem;
+        padding: 10rem 5rem;
         flex-grow: 1;
     }
     #about-me figure {
