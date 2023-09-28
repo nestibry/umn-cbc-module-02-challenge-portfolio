@@ -143,8 +143,9 @@ nav a:hover {
 }
 
 #work {
-    background-color: var(--dark-cyan);
+    /* background-color: var(--dark-cyan); */
     /* background-color: var(--lght-cyan); */
+    background-color: var(--modr-cyan);
 }
 
 
@@ -162,6 +163,7 @@ nav a:hover {
     max-width: 250px;
     border-radius: 100%;
     border: 10px solid var(--dark-cyan);
+    /* border: 10px solid var(--modr-cyan); */
     /* margin: 2.5rem; */
 }
 
@@ -169,6 +171,7 @@ nav a:hover {
     width: 75%;
     text-align: left;
     background-color: var(--dark-cyan);
+    /* background-color: var(--modr-cyan); */
     color: var(--pale-cyan);
     padding: 2rem;
     border-radius: 25px;
