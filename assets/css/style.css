@@ -215,7 +215,7 @@ nav a:hover {
     #about-me {
         flex-direction: row;
         /* align-items: stretch; */
-        min-height: 500px;
+        min-height: 550px;
     }
     #about-me h2 {
         min-height: 75%;
