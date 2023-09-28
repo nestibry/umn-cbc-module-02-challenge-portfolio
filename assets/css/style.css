@@ -125,7 +125,7 @@ nav a:hover {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .main-sections h2 {
@@ -212,11 +212,16 @@ nav a:hover {
     .background-image {
         height: 800px;
     }
-    #about-me {
+    .main-sections {
         flex-direction: row;
-        /* align-items: stretch; */
         min-height: 550px;
     }
+
+    /* #about-me {
+        flex-direction: row;
+        
+        min-height: 550px;
+    } */
     #about-me h2 {
         min-height: 75%;
         max-height: 400px;
@@ -226,7 +231,7 @@ nav a:hover {
         margin: 0;
         border-bottom: none;
         border-right: 5px solid var(--black-and-blue);
-        padding: 10rem 5rem;
+        padding: 150px 4rem;
         flex-grow: 1;
     }
     #about-me figure {
