@@ -159,6 +159,11 @@ nav a:hover {
     margin-bottom: 1.2rem;
 }
 
+#about-me ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 /* @media screen and (min-width: 768px) { */
 @media screen and (min-width: 992px) {
