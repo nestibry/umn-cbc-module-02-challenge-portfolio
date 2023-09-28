@@ -20,7 +20,7 @@ body {
     /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
     font-size: 1.75rem;
     line-height: 1.5;
-    color: var(--text-color);
+    color: var(--modr-cyan);
     background-color: var(--modr-cyan);
 }
 
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 0.625rem;
-    color: var(--lght-cyan);
+    color: var(--modr-cyan);
     font-weight: 700;
     line-height: 1.1;
 }
@@ -80,11 +80,11 @@ header {
     text-align: center;
     /* padding: 1%; */
     background-color: var(--black-and-blue);
-    color: var(--lght-cyan);
 }
 
 header h1 {
     padding: 2.5rem;
+    color: var(--lght-cyan);
 }
 
 nav {
@@ -96,9 +96,33 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
     background-color: var(--dark-cyan);
     color: var(--lght-cyan);
+}
+
+/* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 450px;
+        padding: 1rem;
+    }
+    nav a{
+        background-color: var(--dark-cyan);
+        border-radius: 25px;
+        width: 135px;
+    }
+
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+
 }
