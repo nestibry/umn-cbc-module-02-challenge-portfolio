@@ -125,7 +125,7 @@ nav a:hover {
     align-items: center;
     /* text-align: center; */
     background-color: var(--modr-cyan);
-    gap: 2rem;
+    gap: 3rem;
 }
 
 #about-me h2 {
@@ -201,5 +201,8 @@ nav a:hover {
         border-right: 10px solid var(--dark-cyan);
         padding: 8rem 5rem;
         flex-grow: 1;
+    }
+    #about-me figure {
+        margin: 0 5rem 0 0;
     }
 }
