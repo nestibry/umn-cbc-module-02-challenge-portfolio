@@ -117,13 +117,23 @@ nav a:hover {
     background-position: center;
 }
 
+
+.main-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
 #about-me {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    /* text-align: center; */
     background-color: var(--modr-cyan);
     gap: 3rem;
 }
