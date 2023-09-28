@@ -156,7 +156,8 @@ nav a:hover {
 
 
 /* When using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 992px) {
     header {
         flex-direction: row;
     }
@@ -181,20 +182,15 @@ nav a:hover {
         min-height: 500px;
     }
     #about-me h2 {
-        min-height: 100%;
+        min-height: 75%;
+        max-height: 400px;
         width: 25%;
         /* background-color: #DEF2F1; */
         color: var(--pale-cyan);
         margin: 0;
         border-bottom: none;
         border-right: 10px solid var(--dark-cyan);
-        padding: 2rem;
+        padding: 8rem 5rem;
         flex-grow: 1;
     }
-
-}
-
-/* media query for larger screens */
-@media screen and (min-width: 992px) {
-
 }
