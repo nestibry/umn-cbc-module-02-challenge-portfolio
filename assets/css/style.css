@@ -149,13 +149,14 @@ nav a:hover {
 }
 
 
-#about-me h2 {
-    /* margin: 5% 0 0 0;
-    color: var(--black-and-blue);
-    text-align: center;
-    border-bottom: 1px solid var(--black-and-blue);
-    width: 75%;
-    padding: 1rem; */
+#about-me h2, #contact-me h2 {
+    /* color: var(--black-and-blue);
+    border-bottom: 1px solid var(--black-and-blue); */
+}
+
+#work h2 {
+    /* color: var(--black-and-blue);
+    border-bottom: 1px solid var(--black-and-blue); */
 }
 
 #about-me img {
