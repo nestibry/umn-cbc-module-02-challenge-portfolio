@@ -116,6 +116,7 @@ nav a:hover {
     background-image: url("../images/shenandoah-mtns.jpg");
     background-size: cover;
     background-position: center;
+    border-bottom: 1px solid var(--black-and-blue);
 }
 
 
@@ -222,6 +223,7 @@ nav a:hover {
         
         min-height: 550px;
     } */
+
     #about-me h2 {
         min-height: 75%;
         max-height: 400px;
