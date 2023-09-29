@@ -130,12 +130,11 @@ nav a:hover {
 }
 
 .main-sections h2 {
-    margin: 5% 0 0 0;
+    /* margin: 5% 0 0 0;   */
+    margin: 2% 0 0 0;  
     text-align: center;
     width: 75%;
     padding: 1rem;
-    /* color: var(--black-and-blue);
-    border-bottom: 1px solid var(--black-and-blue); */
     color: var(--black-and-blue);
     border-bottom: 2px solid var(--black-and-blue);
 }
@@ -145,6 +144,7 @@ nav a:hover {
     flex-direction: column;
     width: 75%;
     align-items: center;
+    gap: 5rem;
 }
 
 
@@ -183,15 +183,15 @@ nav a:hover {
     /* margin: 2.5rem; */
 }
 
-#about-me figure {
-    /* width: 75%;
+#about-me summary {
+    /* width: 75%; */
     text-align: left;
-    background-color: var(--dark-cyan); */
+    background-color: var(--dark-cyan);
     /* background-color: var(--modr-cyan); */
-    /* color: var(--pale-cyan);
+    color: var(--pale-cyan);
     padding: 2rem;
     border-radius: 25px;
-    margin-bottom: 5rem; */
+    margin-bottom: 5rem;
 }
 
 #about-me p {
