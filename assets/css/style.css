@@ -230,11 +230,11 @@ nav a:hover {
     }
     .main-sections h2 {
         flex-grow: 1;
-        max-height: 400px;
-        width: 25%;
+        /* max-height: 400px; */
+        max-width: 20%;
         margin: 0;
         /* padding: 150px 4rem; */
-        padding: 0 4rem 300px 4rem;
+        padding: 0 1rem 400px 1rem;
         color: var(--black-and-blue);
         border-bottom: none;
         border-right: 5px solid var(--black-and-blue);
@@ -242,6 +242,8 @@ nav a:hover {
     .section-content {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        /* gap: 2rem; */
         /* max-height: 75%; */
     }
 
@@ -252,17 +254,17 @@ nav a:hover {
         min-height: 550px;
     } */
 
-    .main-sections h2 {
+    /* .main-sections h2 {
         flex-grow: 1;
         max-height: 400px;
         width: 25%;
         margin: 0;
-        /* padding: 150px 4rem; */
+        padding: 150px 4rem;
         padding: 0 4rem 300px 4rem;
         color: var(--black-and-blue);
         border-bottom: none;
         border-right: 5px solid var(--black-and-blue);
-    }
+    } */
     #about-me img {
         max-width: 25%;
         /* max-width: 250px; */
@@ -272,7 +274,7 @@ nav a:hover {
         /* border: 10px solid var(--black-and-blue); */
         /* margin: 2.5rem; */
     }
-    #about-me figure {
+    #about-me summary {
         margin: 0 5rem 0 0;
     }
 }
