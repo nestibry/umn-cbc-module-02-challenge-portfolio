@@ -227,6 +227,22 @@ nav a:hover {
         flex-direction: row;
         min-height: 550px;
     }
+    .main-sections h2 {
+        flex-grow: 1;
+        max-height: 400px;
+        width: 25%;
+        margin: 0;
+        /* padding: 150px 4rem; */
+        padding: 0 4rem 300px 4rem;
+        color: var(--black-and-blue);
+        border-bottom: none;
+        border-right: 5px solid var(--black-and-blue);
+    }
+    .section-content {
+        display: flex;
+        flex-direction: row;
+    }
+
 
     /* #about-me {
         flex-direction: row;
