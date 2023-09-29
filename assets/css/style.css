@@ -5,6 +5,7 @@
     --dark-cyan: #2B7A78;
     --modr-cyan: #3AAFA9;
     --lght-cyan: #DEF2F1;
+    /* --lght-cyan: #b2d8d6; */
     --pale-cyan: #FEFFFF;
 }
 
@@ -115,44 +116,82 @@ nav a:hover {
     background-image: url("../images/shenandoah-mtns.jpg");
     background-size: cover;
     background-position: center;
+    border-bottom: 1px solid var(--black-and-blue);
 }
 
-#about-me {
+
+.main-sections {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    /* text-align: center; */
-    background-color: var(--modr-cyan);
     gap: 3rem;
 }
 
-#about-me h2 {
-    margin: 5% 0 0 0;
-    color: var(--black-and-blue);
+.main-sections h2 {
+    /* margin: 5% 0 0 0;   */
+    margin: 2rem 0 0 0;  
     text-align: center;
-    border-bottom: 1px solid var(--black-and-blue);
     width: 75%;
     padding: 1rem;
+    color: var(--black-and-blue);
+    border-bottom: 2px solid var(--black-and-blue);
 }
 
-#about-me img {
+.section-content {
+    display: flex;
+    flex-direction: column;
     width: 75%;
-    max-width: 250px;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+
+#about-me, #contact-me {
+    /* background-color: var(--modr-cyan); */
+    background-color: var(--lght-cyan);
+}
+
+#work {
+    /* background-color: var(--dark-cyan); */
+    /* background-color: var(--modr-cyan); */
+    /* background-color: var(--lght-cyan); */
+    background-color: var(--pale-cyan);
+}
+
+
+#about-me h2, #contact-me h2 {
+    /* color: var(--black-and-blue);
+    border-bottom: 1px solid var(--black-and-blue); */
+}
+
+#work h2 {
+    /* color: var(--black-and-blue);
+    border-bottom: 1px solid var(--black-and-blue); */
+}
+
+
+
+#about-me img {
+    max-width: 66%;
+    /* max-width: 250px; */
     border-radius: 100%;
     border: 10px solid var(--dark-cyan);
+    /* border: 10px solid var(--modr-cyan); */
+    /* border: 10px solid var(--black-and-blue); */
     /* margin: 2.5rem; */
 }
 
-#about-me figure {
-    width: 75%;
+#about-me summary {
+    max-width: 100%;
     text-align: left;
     background-color: var(--dark-cyan);
     color: var(--pale-cyan);
     padding: 2rem;
     border-radius: 25px;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 #about-me p {
@@ -185,24 +224,57 @@ nav a:hover {
     .background-image {
         height: 800px;
     }
-    #about-me {
+    .main-sections {
         flex-direction: row;
-        /* align-items: stretch; */
-        min-height: 500px;
+        min-height: 550px;
     }
-    #about-me h2 {
-        min-height: 75%;
+    .main-sections h2 {
+        flex-grow: 1;
+        /* max-height: 400px; */
+        max-width: 20%;
+        margin: 0;
+        /* padding: 150px 4rem; */
+        padding: 0 1rem 400px 1rem;
+        color: var(--black-and-blue);
+        border-bottom: none;
+        border-right: 5px solid var(--black-and-blue);
+    }
+    .section-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* gap: 2rem; */
+        /* max-height: 75%; */
+    }
+
+
+    /* #about-me {
+        flex-direction: row;
+        
+        min-height: 550px;
+    } */
+
+    /* .main-sections h2 {
+        flex-grow: 1;
         max-height: 400px;
         width: 25%;
-        /* background-color: #DEF2F1; */
-        color: var(--pale-cyan);
         margin: 0;
+        padding: 150px 4rem;
+        padding: 0 4rem 300px 4rem;
+        color: var(--black-and-blue);
         border-bottom: none;
-        border-right: 10px solid var(--dark-cyan);
-        padding: 10rem 5rem;
-        flex-grow: 1;
+        border-right: 5px solid var(--black-and-blue);
+    } */
+    #about-me img {
+        max-width: 25%;
+        /* max-width: 250px; */
+        border-radius: 100%;
+        border: 10px solid var(--dark-cyan);
+        /* border: 10px solid var(--modr-cyan); */
+        /* border: 10px solid var(--black-and-blue); */
+        /* margin: 2.5rem; */
     }
-    #about-me figure {
+    #about-me summary {
         margin: 0 5rem 0 0;
     }
 }
