@@ -205,6 +205,13 @@ nav a:hover {
     margin-left: 2rem;
 }
 
+#email,
+#github,
+#linkedin {
+    font-size: 200px;
+    color: var(--black-and-blue);
+}
+
 footer {
     text-align: center;
     padding: 2.5rem;
