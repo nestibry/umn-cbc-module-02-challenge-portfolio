@@ -126,12 +126,12 @@ nav a:hover {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .main-sections h2 {
     /* margin: 5% 0 0 0;   */
-    margin: 2% 0 0 0;  
+    margin: 2rem 0 0 0;  
     text-align: center;
     width: 75%;
     padding: 1rem;
@@ -144,7 +144,7 @@ nav a:hover {
     flex-direction: column;
     width: 75%;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 
@@ -175,23 +175,22 @@ nav a:hover {
 
 
 #about-me img {
-    width: 75%;
-    max-width: 250px;
+    max-width: 66%;
     border-radius: 100%;
     border: 10px solid var(--dark-cyan);
     /* border: 10px solid var(--modr-cyan); */
+    /* border: 10px solid var(--black-and-blue); */
     /* margin: 2.5rem; */
 }
 
 #about-me summary {
-    /* width: 75%; */
+    max-width: 100%;
     text-align: left;
     background-color: var(--dark-cyan);
-    /* background-color: var(--modr-cyan); */
     color: var(--pale-cyan);
     padding: 2rem;
     border-radius: 25px;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 #about-me p {
