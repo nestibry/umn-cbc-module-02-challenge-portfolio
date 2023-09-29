@@ -176,6 +176,7 @@ nav a:hover {
 
 #about-me img {
     max-width: 66%;
+    /* max-width: 250px; */
     border-radius: 100%;
     border: 10px solid var(--dark-cyan);
     /* border: 10px solid var(--modr-cyan); */
@@ -241,6 +242,7 @@ nav a:hover {
     .section-content {
         display: flex;
         flex-direction: row;
+        /* max-height: 75%; */
     }
 
 
@@ -261,7 +263,15 @@ nav a:hover {
         border-bottom: none;
         border-right: 5px solid var(--black-and-blue);
     }
-
+    #about-me img {
+        max-width: 25%;
+        /* max-width: 250px; */
+        border-radius: 100%;
+        border: 10px solid var(--dark-cyan);
+        /* border: 10px solid var(--modr-cyan); */
+        /* border: 10px solid var(--black-and-blue); */
+        /* margin: 2.5rem; */
+    }
     #about-me figure {
         margin: 0 5rem 0 0;
     }
