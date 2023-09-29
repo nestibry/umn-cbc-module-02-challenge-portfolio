@@ -147,7 +147,7 @@ nav a:hover {
     width: 75%;
     align-items: center;
     gap: 3rem;
-    justify-content: ;
+    justify-content: space-evenly;
 }
 
 
@@ -209,7 +209,7 @@ nav a:hover {
 #email,
 #github,
 #linkedin {
-    font-size: 200px;
+    font-size: 100px;
     color: var(--black-and-blue);
 }
 
@@ -293,4 +293,10 @@ footer {
     #about-me summary {
         margin: 0 5rem 0 0;
     }
+    #email,
+    #github,
+    #linkedin {
+        font-size: 200px;
+    }
+
 }
