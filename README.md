@@ -27,6 +27,8 @@ https://nestibry.github.io/umn-cbc-module-02-challenge-portfolio/
 ## Credits
 Color schemes sourced from [VISME](https://visme.co/blog/website-color-schemes/). The color pallete, [#24 - Clean and Modern](https://visme.co/blog/website-color-schemes/), was used for my portfolio design.
 
+Font Icons from [Font Awesome, v4](https://fontawesome.com/v4/icons/).
+
 © 2023 edX Boot Camps LLC.
 
 
