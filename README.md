@@ -16,7 +16,7 @@ N/A
 
 ## Usage
 
-https://nestibry.github.io/umn-cbc-module-02-challenge-portfolio/
+https://nestibry.github.io/umnbc-mod02-challenge-portfolio/
 
 ![My First Portfolio - large screen](./_challenge-info/Assets/my-first-portfolio-background-large-screen.png)
 
